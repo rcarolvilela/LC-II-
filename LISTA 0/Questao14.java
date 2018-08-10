@@ -29,7 +29,7 @@ public class Questao14 {
 		for ( int i = 0; i < matriz.length; i++ ){
 			for ( int j = 0; j < matriz[0].length; j++ ){
 				//verificar se esta' acima da diagonal principal 
-				if ( j > i || j == i ){
+				if ( j > i ){
 					soma = soma + matriz[i][j];
 				}//end if 
 			}//end for 
